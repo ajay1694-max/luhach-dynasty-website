@@ -1,0 +1,952 @@
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  
+    <title>लुहाच परिवार</title>
+    <meta content="" name="description">
+    <meta content="" name="keywords">
+  
+    <!-- Favicons -->
+    <link href="http://luhachvansh.com/public/frontend/img/favicon.png" rel="icon">
+    <link href="http://luhachvansh.com/public/frontend/img/apple-touch-icon.png" rel="apple-touch-icon">
+  
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+      rel="stylesheet">
+  
+    <!-- Vendor CSS Files -->
+    <link href="http://luhachvansh.com/public/frontend/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="http://luhachvansh.com/public/frontend/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <link href="http://luhachvansh.com/public/frontend/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+    <link href="http://luhachvansh.com/public/frontend/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+    <link href="http://luhachvansh.com/public/frontend/vendor/remixicon/remixicon.css" rel="stylesheet">
+    <link href="http://luhachvansh.com/public/frontend/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  
+    <!-- Template Main CSS File -->
+    <link href="http://luhachvansh.com/public/frontend/css/style.css" rel="stylesheet">
+    <link href="http://luhachvansh.com/public/frontend/css/mycss.css" rel="stylesheet">
+  
+    <!-- =======================================================
+    * Template Name: MeFamily - v4.3.0
+    * Template URL: https://bootstrapmade.com/family-multipurpose-html-bootstrap-template-free/
+    * Author: BootstrapMade.com
+    * License: https://bootstrapmade.com/license/
+    ======================================================== -->
+  </head>
+<body>
+
+  <!-- ======= Header ======= -->
+<header id="header" class="fixed-top">
+  <div class="container d-flex align-items-center justify-content-between flex-md-row flex-lg-row flex-column ">
+    <div class="logoContainer d-flex align-items-center">
+      <!--<a href="index.html" class="logo"><img src="http://upcane.gov.in/images/cm.png" alt="" class="img-fluid"></a>-->
+      <a href="https://luhachvansh.com/public" class="logo"><img src='http://luhachvansh.com/public/frontend/img/logo.jpeg' alt="" class="img-fluid"></a>
+      <h1 class="logo " style="font-size: 4rem"><a href="https://luhachvansh.com/public">लुहाच परिवार
+        </a></h1>
+    </div>
+    <div class="contactConatiner d-md-flex d-lg-flex align-items-center flex-column d-none">
+      <div class="num d-flex align-items-centerflex-md-row flex-lg-row flex-column mt-lg-0 mt-md-0 mt-2">
+        <h4>हेल्पलाइन नंबर:</h4>
+        <div class="d-flex align-items-center">
+          <h5 class="numo">+91 9354890524</h5>,<h5 class="numo">+91 7053839972</h5>
+        </div>
+      </div>
+      <div class="social-links">
+        <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
+        <a href="https://www.facebook.com/groups/vsluhach/?ref=share" class="facebook"><i class="bx bxl-facebook"></i></a>
+        <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
+        <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
+        <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+        <a href="https://www.youtube.com/user/vipinluhach" class="linkedin"><i class="bx bxl-youtube"></i></a>
+      </div>
+    </div>
+
+    <!-- .navbar -->
+
+  </div>
+  <nav id="navbar" class="navbar">
+    <ul class="w-100">
+      <li><a href="https://luhachvansh.com/public">मुख्य पृष्ठ</a></li>
+      <li class="dropdown"><a href="https://luhachvansh.com/public/about"><span>हमारे बारे में</span> <i class="bi bi-chevron-down"></i></a>
+        <ul>
+          <li class="dropdown"><a href='https://luhachvansh.com/public/about'><span>हमारे बारे में</span></a></li>
+          <li class="dropdown"><a href='https://luhachvansh.com/public/team'><span> टीम</span></a></li>
+          <li class="dropdown"><a href='https://luhachvansh.com/public/kuldevi'><span>कुलदेवी</span></a></li>
+        </ul>
+      </li>
+      
+      <li><a target="_blank" href="http://luhachvansh.com/public/frontend/img/vanshavali.png">वंशावली</a></li>
+      <li><a href="https://luhachvansh.com/public/history">इतिहास</a></li>
+      <li class="dropdown"><a href="https://luhachvansh.com/public/present"><span>हमारे गांव</span> <i class="bi bi-chevron-down"></i></a>
+        <ul>
+
+          
+          
+          <li class="dropdown"><a href=''><span></span> <i class="bi bi-chevron-right"></i></a>
+            <ul>
+                            
+              
+              <li class="dropdown text-center"><a href=''><i class="bi bi-chevron-right"></i> </a>
+                <ul class="mt-4">
+                                                      <li><a href='https://luhachvansh.com/public/search/city'><span></span></a></li>
+                                  </ul>
+              </li>
+
+              
+            </ul>
+          </li>
+
+          
+          
+          <li class="dropdown"><a href=''><span>Haryana</span> <i class="bi bi-chevron-right"></i></a>
+            <ul>
+                            
+              
+              <li class="dropdown text-center"><a href=''>कैथल<i class="bi bi-chevron-right"></i> </a>
+                <ul class="mt-4">
+                                                      <li><a href='https://luhachvansh.com/public/search/city/ढूँढवा'><span>ढूँढवा</span></a></li>
+                                    <li><a href='https://luhachvansh.com/public/search/city/पाढ़ला'><span>पाढ़ला</span></a></li>
+                                  </ul>
+              </li>
+
+              
+              
+              <li class="dropdown text-center"><a href=''>चरखी दादरी<i class="bi bi-chevron-right"></i> </a>
+                <ul class="mt-4">
+                                                      <li><a href='https://luhachvansh.com/public/search/city/नान्धा'><span>नान्धा</span></a></li>
+                                    <li><a href='https://luhachvansh.com/public/search/city/नीमली'><span>नीमली</span></a></li>
+                                    <li><a href='https://luhachvansh.com/public/search/city/रानीला'><span>रानीला</span></a></li>
+                                  </ul>
+              </li>
+
+              
+              
+              <li class="dropdown text-center"><a href=''>जिन्द<i class="bi bi-chevron-right"></i> </a>
+                <ul class="mt-4">
+                                                      <li><a href='https://luhachvansh.com/public/search/city/उझाणा'><span>उझाणा</span></a></li>
+                                    <li><a href='https://luhachvansh.com/public/search/city/भड़ताना'><span>भड़ताना</span></a></li>
+                                  </ul>
+              </li>
+
+              
+              
+              <li class="dropdown text-center"><a href=''>झज्जर<i class="bi bi-chevron-right"></i> </a>
+                <ul class="mt-4">
+                                                      <li><a href='https://luhachvansh.com/public/search/city/मारोत'><span>मारोत</span></a></li>
+                                    <li><a href='https://luhachvansh.com/public/search/city/रीवाड़ी खेड़ा'><span>रीवाड़ी खेड़ा</span></a></li>
+                                  </ul>
+              </li>
+
+              
+              
+              <li class="dropdown text-center"><a href=''>भिवानी<i class="bi bi-chevron-right"></i> </a>
+                <ul class="mt-4">
+                                                      <li><a href='https://luhachvansh.com/public/search/city/अलखपुरा'><span>अलखपुरा</span></a></li>
+                                    <li><a href='https://luhachvansh.com/public/search/city/सालहेवाला'><span>सालहेवाला</span></a></li>
+                                    <li><a href='https://luhachvansh.com/public/search/city/सिवाड़ा'><span>सिवाड़ा</span></a></li>
+                                  </ul>
+              </li>
+
+              
+              
+              <li class="dropdown text-center"><a href=''>रोहतक<i class="bi bi-chevron-right"></i> </a>
+                <ul class="mt-4">
+                                                      <li><a href='https://luhachvansh.com/public/search/city/कबूलपुर'><span>कबूलपुर</span></a></li>
+                                    <li><a href='https://luhachvansh.com/public/search/city/गिरावड़'><span>गिरावड़</span></a></li>
+                                    <li><a href='https://luhachvansh.com/public/search/city/गुगाहेड़ी'><span>गुगाहेड़ी</span></a></li>
+                                    <li><a href='https://luhachvansh.com/public/search/city/रिटौली'><span>रिटौली</span></a></li>
+                                  </ul>
+              </li>
+
+              
+              
+              <li class="dropdown text-center"><a href=''>हिसार<i class="bi bi-chevron-right"></i> </a>
+                <ul class="mt-4">
+                                                      <li><a href='https://luhachvansh.com/public/search/city/मोहला'><span>मोहला</span></a></li>
+                                  </ul>
+              </li>
+
+              
+            </ul>
+          </li>
+
+          
+          
+          <li class="dropdown"><a href=''><span>Rajasthan</span> <i class="bi bi-chevron-right"></i></a>
+            <ul>
+                            
+              
+              <li class="dropdown text-center"><a href=''>जयपुर<i class="bi bi-chevron-right"></i> </a>
+                <ul class="mt-4">
+                                                      <li><a href='https://luhachvansh.com/public/search/city/किशनगढ़ रेनवाल'><span>किशनगढ़ रेनवाल</span></a></li>
+                                  </ul>
+              </li>
+
+              
+              
+              <li class="dropdown text-center"><a href=''>नागौर<i class="bi bi-chevron-right"></i> </a>
+                <ul class="mt-4">
+                                                      <li><a href='https://luhachvansh.com/public/search/city/भींवपुरा'><span>भींवपुरा</span></a></li>
+                                  </ul>
+              </li>
+
+              
+              
+              <li class="dropdown text-center"><a href=''>सीकर<i class="bi bi-chevron-right"></i> </a>
+                <ul class="mt-4">
+                                                      <li><a href='https://luhachvansh.com/public/search/city/खाटू श्याम'><span>खाटू श्याम</span></a></li>
+                                    <li><a href='https://luhachvansh.com/public/search/city/धींगपुर'><span>धींगपुर</span></a></li>
+                                    <li><a href='https://luhachvansh.com/public/search/city/पुण्याना'><span>पुण्याना</span></a></li>
+                                    <li><a href='https://luhachvansh.com/public/search/city/सारगोथ'><span>सारगोथ</span></a></li>
+                                  </ul>
+              </li>
+
+              
+            </ul>
+          </li>
+
+          
+          
+          <li class="dropdown"><a href=''><span>UttarPradesh</span> <i class="bi bi-chevron-right"></i></a>
+            <ul>
+                            
+              
+              <li class="dropdown text-center"><a href=''>अमरोहा<i class="bi bi-chevron-right"></i> </a>
+                <ul class="mt-4">
+                                                      <li><a href='https://luhachvansh.com/public/search/city/घरोट'><span>घरोट</span></a></li>
+                                  </ul>
+              </li>
+
+              
+              
+              <li class="dropdown text-center"><a href=''>अलीगढ<i class="bi bi-chevron-right"></i> </a>
+                <ul class="mt-4">
+                                                      <li><a href='https://luhachvansh.com/public/search/city/इगलास'><span>इगलास</span></a></li>
+                                  </ul>
+              </li>
+
+              
+              
+              <li class="dropdown text-center"><a href=''>गाजियाबाद<i class="bi bi-chevron-right"></i> </a>
+                <ul class="mt-4">
+                                                      <li><a href='https://luhachvansh.com/public/search/city/गढ़ी गुलडहर'><span>गढ़ी गुलडहर</span></a></li>
+                                  </ul>
+              </li>
+
+              
+              
+              <li class="dropdown text-center"><a href=''>बरेली<i class="bi bi-chevron-right"></i> </a>
+                <ul class="mt-4">
+                                                      <li><a href='https://luhachvansh.com/public/search/city/मोहम्मद पुर जाटान'><span>मोहम्मद पुर जाटान</span></a></li>
+                                  </ul>
+              </li>
+
+              
+              
+              <li class="dropdown text-center"><a href=''>बिजनौर<i class="bi bi-chevron-right"></i> </a>
+                <ul class="mt-4">
+                                                      <li><a href='https://luhachvansh.com/public/search/city/कादराबाद'><span>कादराबाद</span></a></li>
+                                  </ul>
+              </li>
+
+              
+              
+              <li class="dropdown text-center"><a href=''>बुलन्दशहर<i class="bi bi-chevron-right"></i> </a>
+                <ul class="mt-4">
+                                                      <li><a href='https://luhachvansh.com/public/search/city/खाद मोहननगर'><span>खाद मोहननगर</span></a></li>
+                                    <li><a href='https://luhachvansh.com/public/search/city/गहना'><span>गहना</span></a></li>
+                                    <li><a href='https://luhachvansh.com/public/search/city/नंगला उगरसैन'><span>नंगला उगरसैन</span></a></li>
+                                    <li><a href='https://luhachvansh.com/public/search/city/बदरखा सिरवास'><span>बदरखा सिरवास</span></a></li>
+                                    <li><a href='https://luhachvansh.com/public/search/city/भंडोली'><span>भंडोली</span></a></li>
+                                    <li><a href='https://luhachvansh.com/public/search/city/भैसाखुर'><span>भैसाखुर</span></a></li>
+                                    <li><a href='https://luhachvansh.com/public/search/city/सियाल्ली'><span>सियाल्ली</span></a></li>
+                                    <li><a href='https://luhachvansh.com/public/search/city/सेहरा'><span>सेहरा</span></a></li>
+                                  </ul>
+              </li>
+
+              
+              
+              <li class="dropdown text-center"><a href=''>मुरादाबाद<i class="bi bi-chevron-right"></i> </a>
+                <ul class="mt-4">
+                                                      <li><a href='https://luhachvansh.com/public/search/city/छज्जा नगला'><span>छज्जा नगला</span></a></li>
+                                    <li><a href='https://luhachvansh.com/public/search/city/ज्ञानपुर'><span>ज्ञानपुर</span></a></li>
+                                    <li><a href='https://luhachvansh.com/public/search/city/दांशाह मलिक'><span>दांशाह मलिक</span></a></li>
+                                    <li><a href='https://luhachvansh.com/public/search/city/मुण्डाखेड़ी'><span>मुण्डाखेड़ी</span></a></li>
+                                  </ul>
+              </li>
+
+              
+              
+              <li class="dropdown text-center"><a href=''>मेरठ<i class="bi bi-chevron-right"></i> </a>
+                <ul class="mt-4">
+                                                      <li><a href='https://luhachvansh.com/public/search/city/अमरपुर'><span>अमरपुर</span></a></li>
+                                    <li><a href='https://luhachvansh.com/public/search/city/समस पुर'><span>समस पुर</span></a></li>
+                                  </ul>
+              </li>
+
+              
+              
+              <li class="dropdown text-center"><a href=''>सम्भल<i class="bi bi-chevron-right"></i> </a>
+                <ul class="mt-4">
+                                                      <li><a href='https://luhachvansh.com/public/search/city/दरियापुर'><span>दरियापुर</span></a></li>
+                                    <li><a href='https://luhachvansh.com/public/search/city/बाबूखेड़ा'><span>बाबूखेड़ा</span></a></li>
+                                  </ul>
+              </li>
+
+              
+              
+              <li class="dropdown text-center"><a href=''>हापुड़<i class="bi bi-chevron-right"></i> </a>
+                <ul class="mt-4">
+                                                      <li><a href='https://luhachvansh.com/public/search/city/नली हुसैनपुर'><span>नली हुसैनपुर</span></a></li>
+                                    <li><a href='https://luhachvansh.com/public/search/city/भडंग़पुर'><span>भडंग़पुर</span></a></li>
+                                  </ul>
+              </li>
+
+              
+            </ul>
+          </li>
+
+          
+        </ul>
+      </li>
+      <li><a href="https://luhachvansh.com/public/memories">गैलरी</a></li>
+
+      <li><a href="https://luhachvansh.com/public/shaheed">शहीद </a></li>
+      <li><a href="https://luhachvansh.com/public/achievers/all">एचीवर्स</a></li>
+      <li><a href="https://luhachvansh.com/public/join">हमसे जुड़ें</a></li>
+    </ul>
+   <div class="w-100 d-flex align-items-center justify-content-between px-3 mt-2 bg-primary text-light">
+     <i></i>
+   <i class="bi bi-list mobile-nav-toggle my-2 text-light">Menu</i>
+   </div>
+  </nav>
+</header><!-- End Header -->
+  <div>
+    <div class="row" style="margin-left: 0px;margin-right: 0px;">
+      <div class="col-lg-3 col-xl-3 col-xxl-3 col-md-6  order-lg-1 order-md-1 order-1">
+        <div class="card sideImg">
+          <div class="card-body">
+            <img src="http://luhachvansh.com/public/frontend/img/2.jpg" alt="" class="img-fluid h-100">
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-6 col-xl-6 col-xxl-6 order-lg-2 order-md-3 order-2">
+        <!-- ======= Hero Section ======= -->
+        <section id="hero" class="myHero">
+          <div id="heroCarousel" data-bs-interval="5000" class="carousel slide carousel-fade" data-bs-ride="carousel">
+
+            <ol class="carousel-indicators" id="hero-carousel-indicators"></ol>
+
+            <div class="carousel-inner" role="listbox">
+
+              
+                            <div class="carousel-item active" style="background-image: url(frontend/img/gallery/040323_11_42_02.jpg)">
+              </div>
+
+              
+              
+                            <div class="carousel-item " style="background-image: url(frontend/img/gallery/301021_14_54_20.jpeg)">
+              </div>
+              
+              
+                            <div class="carousel-item " style="background-image: url(frontend/img/gallery/301021_14_16_20.jpeg)">
+              </div>
+              
+              
+                            <div class="carousel-item " style="background-image: url(frontend/img/gallery/301021_14_00_19.jpeg)">
+              </div>
+              
+              
+                            <div class="carousel-item " style="background-image: url(frontend/img/gallery/301021_14_36_14.jpeg)">
+              </div>
+              
+              
+                            <div class="carousel-item " style="background-image: url(frontend/img/gallery/301021_14_40_12.jpeg)">
+              </div>
+              
+              
+                            <div class="carousel-item " style="background-image: url(frontend/img/gallery/301021_14_15_09.jpeg)">
+              </div>
+              
+              
+                            <div class="carousel-item " style="background-image: url(frontend/img/gallery/301021_14_47_07.jpeg)">
+              </div>
+              
+              
+                            <div class="carousel-item " style="background-image: url(frontend/img/gallery/301021_14_45_02.jpeg)">
+              </div>
+              
+              
+                            <div class="carousel-item " style="background-image: url(frontend/img/gallery/301021_14_10_02.jpeg)">
+              </div>
+              
+              
+                            <div class="carousel-item " style="background-image: url(frontend/img/gallery/201021_19_34_29.jpg)">
+              </div>
+              
+              
+                            <div class="carousel-item " style="background-image: url(frontend/img/gallery/201021_19_18_25.jpg)">
+              </div>
+              
+              
+            </div>
+
+            <a class="carousel-control-prev" href="#heroCarousel" role="button" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon bi bi-chevron-left" aria-hidden="true"></span>
+            </a>
+
+            <a class="carousel-control-next" href="#heroCarousel" role="button" data-bs-slide="next">
+              <span class="carousel-control-next-icon bi bi-chevron-right" aria-hidden="true"></span>
+            </a>
+
+          </div>
+        </section><!-- End Hero -->
+      </div>
+      <div class="col-lg-3 col-xl-3 col-xxl-3 col-md-6  order-lg-3 order-md-2 order-3 ">
+        <div class="card sideImg">
+          <div class="card-body">
+            <img src="http://luhachvansh.com/public/frontend/img/newImg.jpeg" alt="" class="img-fluid" width="150">
+          </div>
+        <p>चौ उमराव सिंह लुहाच भारतीय अंग्रेजी सेना द्वारा रायसाहब की उपाधि से सम्मानित, शीशपाल जी द्वारा लिखित गांव भड़ंगपुर की वंशावली पुस्तक में इसका वर्णन है।F.I)</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  
+  <div class="row m-0 p-0 mt-lg-1 mt-md-2 mt-2">
+    <div class="col-lg-10 col-md-10 col-12 order-lg-1 order-md-1 order-2">
+      <div class="scroll-left">
+        <div class="pot">
+          
+          <a style="color: white;text-decoration:none" href='https://luhachvansh.com/public/news_details/12'><p>6वाँ लुहाच परिवार मिलन समारोह<span style="margin-left: 6px;"><span>new</span></span></p></a>
+              
+          
+          <a style="color: white;text-decoration:none" href='https://luhachvansh.com/public/news_details/11'><p>केन्द्रीय कमेटी<span style="margin-left: 6px;"><span>new</span></span></p></a>
+              
+          
+          <a style="color: white;text-decoration:none" href='https://luhachvansh.com/public/news_details/10'><p>वंशावली अपडेट<span style="margin-left: 6px;"><span>new</span></span></p></a>
+              
+          
+          <a style="color: white;text-decoration:none" href='https://luhachvansh.com/public/news_details/7'><p>शहीद दादा बरदेशराम का इतिहास<span style="margin-left: 6px;"><span>new</span></span></p></a>
+              
+          
+          <a style="color: white;text-decoration:none" href='https://luhachvansh.com/public/news_details/5'><p>जड़वा गांव में शहीद दादा बरदेश की स्मृति<span style="margin-left: 6px;"><span>new</span></span></p></a>
+              
+                  </div>
+      </div>
+    </div>
+    <div class="col-lg-2 col-md-2 col-12 order-lg-2 order-md-2 order-1">
+      <a href="#" class="btn-block h-100  text-light d-flex align-items-center justify-content-center py-lg-0 py-md-0 py-3" style="background: #2b3c6f;"><b>
+          <p class="mb-0">ताजा खबर</p>
+        </b></a>
+    </div>
+  </div>
+
+  <main id="main">
+
+    
+
+
+
+    <!-- ======= My & Family Section ======= -->
+    <section id="about" class="about">
+      <div class="container">
+        <div class="section-title">
+          <h2>हमारे बारे में</h2>
+          <p class="textSize" style="text-align: justify;">
+            <h4 style="text-align: left; margin-bottom: 0in; line-height: 100%;">लुहाच वंश मेहनतकश जाट समुदाय का एक गोत्र है। लुहाच वंश का इतिहास छठी शताब्दी लगभग 1500 साल पुराना है इतिहासकारो के अनुसार इसकी उत्पत्ति अग्निवंशी राजपूत से हुई है यह गोत्र अग्निवंश में वैदिककालीन जाट गोत्र है । इनका निवास स्थान राजस्थान के आबूगढ़ क्षेत्र में था। लुहाच वंश के लोग प्राचीन काल से ही युद्ध कला में निपुण रहे है जो अपनी वीरता एवम बलिदान के लिए जाने जाते है इनका जीविकोपार्जन हेतु मुख्य व्यवसाय खेती और पशुपालन था वर्तमान मे लुहाच वंश के अत्यधिक फैलाव होने के कारण और समयनुसार कुछ लोगो ने शहरी नौकरियों के पक्ष में कृषि को छोड़ दिया और उच्च सामाजिक स्थिति का दावा करने के लिए अपनी प्रमुख आर्थिक तथा राजनीतिक स्थिति को मजबूत करने के लिए शहर की तरफ पलायन करने लगे है। कुछ समय पूर्व तक लुहाच वंश के लोगो को अपने वंश के फैलाव का पता नहीं  था ।  रिटार्ड कर्नल कर्मबीर सिंह लुहाच जो की भारतीय सेना मे लगभग 40 वर्ष अपनी सेवा देने के उपरान्त 30 अप्रैल 2019 को सेवानिवृत होने के बाद जनवरी 2021 से अपने वंश का इतिहास और वंश के फैलाव का पता लगाने की एक मुहिम की शुरआत की और उनके इस अथक प्रयास से 1 महीने मे लुहाच गोत्र के 37 गाँवो का पता लगा लिया गया था  जिसके फलस्वरूप आज उत्तरी भारत मे हरियाणा , राजस्थान व् उत्तेर प्रदेश के 42 गाँवो मे लुहाच गोत्र के लोग रहते है। फिर शोसल मिडिया की मदद से एक ग्रुप बनाकर सभी गाँवो के लुहाच भाईयों को एक मंच पर एकत्रित किया गया लोग आपस मे बात करने लगे कारवाँ बढ़ता गया  और देखते ही देखते सभी गाँवो के लुहाच भाई इतने समीप आ गए कि जैसे एक ही संगठन व् एक ही परिवार के सदस्य हो। उसके बाद गुरुग्राम मे निवास करने वाले कुछ लुहाच भाईयों ने मिलकर सभी गाँवो के लुहाच भाईयों को आमंत्रित कर 14 फरवरी 2021 को एक विशाल लुहाच मिलन समारोह का आयोजन किया जिसमे लगभग 30 गाँवो से 500 लुहाच भाई सम्लित हुए और इस समारोह का प्रारम्भ हवन द्वारा किया गया हर गांव से एक प्रितिनिधि ने मंच पर आकर अपने विचार व्यक्त किये और अपने गांव के बारे में जानकारी दी।  इस समारोह मे आपसी भाईचारा , सामाजिक कुरूतियों से छुटकारा तथा अन्य समाज के लोगो से मिलजुलकर रहने पर बल दिया गया और आपसी मनमुटाव को भुलाकर एक दूसरे कि सहायता द्वारा लुहाच  गोत्र को अधिक शक्तिशाली बनाया जा सके इस बात पर  विचार विमर्श किया गया  साथ ही  समारोह मे यह शपथ भी दिलाई गयी कि अपने गोत्र (लुहाच) के परति सदैव निष्ठावान रहेंगे   इसके बाद सब गाँवो को वंश के मुताबिक जोड़ने के लिए हर गाँव से वंशावली बनाने का आह्वान किया गया  जिसके फलस्वरूप सभी लुहाच भाईयो ने अपने- अपने गाँव की वंशावली बनाकर एक डिजिटल पटल पर साझा की और फिर कर्नल कर्मबीर सिंह लुहाच द्वारा इन वंशावली को पीढ़ी संख्या वंश की मुताबिक लगाकर कम्प्यूटरीकृत करने की लिए चरन सिंह लुहाच गाँव- नगला उग्रसैन, जिला - बुलन्दहर (उत्तर प्रदेश) की पास भेज दिया गया  आज लगभग 39 गाँवो की वंशावली को चरन सिंह लुहाच द्वारा कम्प्यूटरीकृत कर दिया गया इसी के आधार पर लुहाच वंश का सम्पूर्ण इतिहास लिखा जा रहा है  और साथ ही साथ लुहाच वंश नामक पुस्तक का लेखन कार्य भी किया जा रहा है। इसके अलावा लुहाच वंश के इतिहास को इन्टरनेट पर साझा किया जाएगा ताकि विश्व मे   कोई भी कही से भी लुहाच वंश के इतिहास की पूरी जानकारी ले सके। लुहाच वंश का सम्पूर्ण इतिहास देखने की लिए इतिहास पर क्लिक करे&nbsp;<font face="FreeSans"><span lang="hi-IN"><br></span></font><font face="FreeSans"><span lang="hi-IN"><br></span></font><font face="FreeSans"><span lang="hi-IN">कर्नल कर्मबीर
+सिंह लुहाच&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; चरन सिंह लुहाच<br> </span></font><font face="FreeSans"><span lang="hi-IN">गाँव</span></font>-
+<font face="FreeSans"><span lang="hi-IN">गुगाहेड़ी&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; गाँव</span></font>- <font face="FreeSans"><span lang="hi-IN">नगला
+उग्रसैन</span></font>,<br>                 
+<font face="FreeSans"><span lang="hi-IN">जिला
+</span></font>- <font face="FreeSans"><span lang="hi-IN">रोहतक
+</span></font>(<font face="FreeSans"><span lang="hi-IN">हरियाणा
+</span></font>)&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<font face="FreeSans"><span lang="hi-IN">जिला </span></font>-
+<font face="FreeSans"><span lang="hi-IN">बुलन्दहर
+</span></font>(<font face="FreeSans"><span lang="hi-IN">उत्तर
+प्रदेश</span></font>)</h4><p style="margin-bottom: 0in; line-height: 100%">
+</p><p>
+	
+	
+	<style type="text/css">
+		@page { size: 8.5in 11in; margin: 0.79in }
+		p { margin-bottom: 0.1in; line-height: 115%; background: transparent }
+		a:link { color: #000080; so-language: zxx; text-decoration: underline }
+	</style>
+
+
+
+
+</p><p style="text-align: left; margin-bottom: 0in; line-height: 100%;"><br>
+
+</p><p><br></p>
+          </p>
+        </div>
+
+        <div class="row content">
+          <div class="col-lg-12">
+            <img src='http://luhachvansh.com/public/frontend/img/about/image_one.jpeg' width="100%" class="img-fluid" alt="">
+          </div>
+          <div class="col-lg-12">
+            <img src='http://luhachvansh.com/public/frontend/img/about/image_two.jpg' width="100%" class="img-fluid" alt="">
+          </div>
+          <div class="col-lg-6 pt-4 pt-lg-0">
+
+            
+
+            
+            
+          </div>
+        </div>
+
+      </div>
+    </section>
+    <!-- End My & Family Section -->
+
+    <section>
+      <div class="section-title" style="padding-bottom: 0px;">
+        <h2>एचीवर्स</h2>
+      </div>
+      <div class="professionContainer">
+        <div class="row" style="margin-right: 0; margin-left: 0;">
+          <div class="col-lg-2 col-md-3 col-6">
+            <a href="https://luhachvansh.com/public/achievers/Professor">
+              <div class="card">
+                <div class="card-body">
+                  <img src="http://luhachvansh.com/public/frontend/img/professions/professor.png" alt="" class="img-fluid">
+                </div>
+                <div class="card-footer">
+                  <p>Professor</p>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-lg-2 col-md-3 col-6">
+            <a href="https://luhachvansh.com/public/achievers/Doctor">
+              <div class="card">
+                <div class="card-body">
+                  <img src="http://luhachvansh.com/public/frontend/img/professions/doctor.png" alt="" class="img-fluid">
+                </div>
+                <div class="card-footer">
+                  <p>Doctor</p>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-lg-2 col-md-3 col-6">
+            <a href="https://luhachvansh.com/public/achievers/Engineer">
+              <div class="card">
+                <div class="card-body">
+                  <img src="http://luhachvansh.com/public/frontend/img/professions/engineer.png" alt="" class="img-fluid">
+                </div>
+                <div class="card-footer">
+                  <p>Engineer</p>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-lg-2 col-md-3 col-6">
+            <a href="https://luhachvansh.com/public/achievers/Lawyer">
+              <div class="card">
+                <div class="card-body">
+                  <img src="http://luhachvansh.com/public/frontend/img/professions/lawyer.png" alt="" class="img-fluid">
+                </div>
+                <div class="card-footer">
+                  <p>Lawyer</p>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-lg-2 col-md-3 col-6">
+            <a href="https://luhachvansh.com/public/achievers/CA">
+              <div class="card">
+                <div class="card-body">
+                  <img src="http://luhachvansh.com/public/frontend/img/professions/accountant.png" alt="" class="img-fluid">
+                </div>
+                <div class="card-footer">
+                  <p>CA's</p>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-lg-2 col-md-3 col-6">
+            <a href="https://luhachvansh.com/public/achievers/Corporates">
+              <div class="card">
+                <div class="card-body">
+                  <img src="http://luhachvansh.com/public/frontend/img/professions/businessman.png" alt="" class="img-fluid">
+                </div>
+                <div class="card-footer">
+                  <p>Corporates</p>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-lg-2 col-md-3 col-6">
+            <a href="https://luhachvansh.com/public/achievers/Military">
+              <div class="card">
+                <div class="card-body">
+                  <img src="http://luhachvansh.com/public/frontend/img/professions/soldier.png" alt="" class="img-fluid">
+                </div>
+                <div class="card-footer">
+                  <p>Military</p>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-lg-2 col-md-3 col-6">
+            <a href="https://luhachvansh.com/public/achievers/Goverment Servant">
+              <div class="card">
+                <div class="card-body">
+                  <img src="http://luhachvansh.com/public/frontend/img/professions/policeman.png" alt="" class="img-fluid">
+                </div>
+                <div class="card-footer">
+                  <p>Goverment Servant</p>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-lg-2 col-md-3 col-6">
+            <a href="https://luhachvansh.com/public/achievers/Politician">
+              <div class="card">
+                <div class="card-body">
+                  <img src="http://luhachvansh.com/public/frontend/img/professions/stump.png" alt="" class="img-fluid">
+                </div>
+                <div class="card-footer">
+                  <p>Politician</p>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-lg-2 col-md-3 col-6">
+            <a href="https://luhachvansh.com/public/achievers/Sports">
+              <div class="card">
+                <div class="card-body">
+                  <img src="http://luhachvansh.com/public/frontend/img/professions/sports.jpg" alt="" class="img-fluid">
+                </div>
+                <div class="card-footer">
+                  <p>Sports</p>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-lg-2 col-md-3 col-6">
+            <a href="https://luhachvansh.com/public/achievers/Police">
+              <div class="card">
+                <div class="card-body">
+                  <img src="http://luhachvansh.com/public/frontend/img/professions/police.png" alt="" class="img-fluid">
+                </div>
+                <div class="card-footer">
+                  <p>Police</p>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-lg-2 col-md-3 col-6">
+            <a href="https://luhachvansh.com/public/achievers/Other">
+              <div class="card">
+                <div class="card-body">
+                  <img src="http://luhachvansh.com/public/frontend/img/professions/other.jpg" alt="" class="img-fluid">
+                </div>
+                <div class="card-footer">
+                  <p>Other</p>
+                </div>
+              </div>
+            </a>
+          </div>
+          
+        </div>
+      </div>
+    </section>
+
+
+    <!-- ======= Recent Photos Section ======= -->
+    <section id="recent-photos" class="recent-photos">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>नवीन छवि</h2>
+          
+        </div>
+
+        <div class="recent-photos-slider swiper-container">
+          <div class="swiper-wrapper align-items-center">
+                        <div class="swiper-slide">
+              <a href="http://luhachvansh.com/public/$data-&gt;images" class="glightbox">
+                  <img src="frontend/img/gallery/120525_14_39_27.jpeg" height="200px" width="auto" alt="image">
+              </a>
+            </div>
+
+                        <div class="swiper-slide">
+              <a href="http://luhachvansh.com/public/$data-&gt;images" class="glightbox">
+                  <img src="frontend/img/gallery/120525_14_33_27.jpeg" height="200px" width="auto" alt="image">
+              </a>
+            </div>
+
+                        <div class="swiper-slide">
+              <a href="http://luhachvansh.com/public/$data-&gt;images" class="glightbox">
+                  <img src="frontend/img/gallery/120525_14_27_27.jpeg" height="200px" width="auto" alt="image">
+              </a>
+            </div>
+
+                        <div class="swiper-slide">
+              <a href="http://luhachvansh.com/public/$data-&gt;images" class="glightbox">
+                  <img src="frontend/img/gallery/120525_14_21_27.jpeg" height="200px" width="auto" alt="image">
+              </a>
+            </div>
+
+                        <div class="swiper-slide">
+              <a href="http://luhachvansh.com/public/$data-&gt;images" class="glightbox">
+                  <img src="frontend/img/gallery/120525_14_14_27.jpeg" height="200px" width="auto" alt="image">
+              </a>
+            </div>
+
+                        <div class="swiper-slide">
+              <a href="http://luhachvansh.com/public/$data-&gt;images" class="glightbox">
+                  <img src="frontend/img/gallery/120525_14_08_27.jpeg" height="200px" width="auto" alt="image">
+              </a>
+            </div>
+
+                        <div class="swiper-slide">
+              <a href="http://luhachvansh.com/public/$data-&gt;images" class="glightbox">
+                  <img src="frontend/img/gallery/040323_11_00_16.jpg" height="200px" width="auto" alt="image">
+              </a>
+            </div>
+
+                        <div class="swiper-slide">
+              <a href="http://luhachvansh.com/public/$data-&gt;images" class="glightbox">
+                  <img src="frontend/img/gallery/040323_11_47_15.jpg" height="200px" width="auto" alt="image">
+              </a>
+            </div>
+
+                        <div class="swiper-slide">
+              <a href="http://luhachvansh.com/public/$data-&gt;images" class="glightbox">
+                  <img src="frontend/img/gallery/040323_11_15_08.jpg" height="200px" width="auto" alt="image">
+              </a>
+            </div>
+
+                        <div class="swiper-slide">
+              <a href="http://luhachvansh.com/public/$data-&gt;images" class="glightbox">
+                  <img src="frontend/img/gallery/040323_11_02_07.jpg" height="200px" width="auto" alt="image">
+              </a>
+            </div>
+
+                        <div class="swiper-slide">
+              <a href="http://luhachvansh.com/public/$data-&gt;images" class="glightbox">
+                  <img src="frontend/img/gallery/040323_11_32_04.jpg" height="200px" width="auto" alt="image">
+              </a>
+            </div>
+
+                        <div class="swiper-slide">
+              <a href="http://luhachvansh.com/public/$data-&gt;images" class="glightbox">
+                  <img src="frontend/img/gallery/140222_16_20_11.jpeg" height="200px" width="auto" alt="image">
+              </a>
+            </div>
+
+                        <div class="swiper-slide">
+              <a href="http://luhachvansh.com/public/$data-&gt;images" class="glightbox">
+                  <img src="frontend/img/gallery/161121_15_09_19.jpeg" height="200px" width="auto" alt="image">
+              </a>
+            </div>
+
+                        <div class="swiper-slide">
+              <a href="http://luhachvansh.com/public/$data-&gt;images" class="glightbox">
+                  <img src="frontend/img/gallery/301021_14_42_18.jpeg" height="200px" width="auto" alt="image">
+              </a>
+            </div>
+
+                        <div class="swiper-slide">
+              <a href="http://luhachvansh.com/public/$data-&gt;images" class="glightbox">
+                  <img src="frontend/img/gallery/301021_14_16_18.jpeg" height="200px" width="auto" alt="image">
+              </a>
+            </div>
+
+                        <div class="swiper-slide">
+              <a href="http://luhachvansh.com/public/$data-&gt;images" class="glightbox">
+                  <img src="frontend/img/gallery/301021_14_50_17.jpeg" height="200px" width="auto" alt="image">
+              </a>
+            </div>
+
+                        <div class="swiper-slide">
+              <a href="http://luhachvansh.com/public/$data-&gt;images" class="glightbox">
+                  <img src="frontend/img/gallery/301021_14_01_17.jpeg" height="200px" width="auto" alt="image">
+              </a>
+            </div>
+
+                        <div class="swiper-slide">
+              <a href="http://luhachvansh.com/public/$data-&gt;images" class="glightbox">
+                  <img src="frontend/img/gallery/301021_14_48_16.jpeg" height="200px" width="auto" alt="image">
+              </a>
+            </div>
+
+                        <div class="swiper-slide">
+              <a href="http://luhachvansh.com/public/$data-&gt;images" class="glightbox">
+                  <img src="frontend/img/gallery/301021_14_32_16.jpeg" height="200px" width="auto" alt="image">
+              </a>
+            </div>
+
+                        <div class="swiper-slide">
+              <a href="http://luhachvansh.com/public/$data-&gt;images" class="glightbox">
+                  <img src="frontend/img/gallery/301021_14_05_16.jpeg" height="200px" width="auto" alt="image">
+              </a>
+            </div>
+
+                        <div class="swiper-slide">
+              <a href="http://luhachvansh.com/public/$data-&gt;images" class="glightbox">
+                  <img src="frontend/img/gallery/301021_14_46_15.jpeg" height="200px" width="auto" alt="image">
+              </a>
+            </div>
+
+                        <div class="swiper-slide">
+              <a href="http://luhachvansh.com/public/$data-&gt;images" class="glightbox">
+                  <img src="frontend/img/gallery/301021_14_18_14.jpeg" height="200px" width="auto" alt="image">
+              </a>
+            </div>
+
+                        <div class="swiper-slide">
+              <a href="http://luhachvansh.com/public/$data-&gt;images" class="glightbox">
+                  <img src="frontend/img/gallery/301021_14_22_12.jpeg" height="200px" width="auto" alt="image">
+              </a>
+            </div>
+
+                        <div class="swiper-slide">
+              <a href="http://luhachvansh.com/public/$data-&gt;images" class="glightbox">
+                  <img src="frontend/img/gallery/301021_14_58_11.jpeg" height="200px" width="auto" alt="image">
+              </a>
+            </div>
+
+                        <div class="swiper-slide">
+              <a href="http://luhachvansh.com/public/$data-&gt;images" class="glightbox">
+                  <img src="frontend/img/gallery/301021_14_34_11.jpeg" height="200px" width="auto" alt="image">
+              </a>
+            </div>
+
+                        <div class="swiper-slide">
+              <a href="http://luhachvansh.com/public/$data-&gt;images" class="glightbox">
+                  <img src="frontend/img/gallery/301021_14_21_11.jpeg" height="200px" width="auto" alt="image">
+              </a>
+            </div>
+
+                        <div class="swiper-slide">
+              <a href="http://luhachvansh.com/public/$data-&gt;images" class="glightbox">
+                  <img src="frontend/img/gallery/301021_14_59_10.jpeg" height="200px" width="auto" alt="image">
+              </a>
+            </div>
+
+                        <div class="swiper-slide">
+              <a href="http://luhachvansh.com/public/$data-&gt;images" class="glightbox">
+                  <img src="frontend/img/gallery/301021_14_39_10.jpeg" height="200px" width="auto" alt="image">
+              </a>
+            </div>
+
+                        <div class="swiper-slide">
+              <a href="http://luhachvansh.com/public/$data-&gt;images" class="glightbox">
+                  <img src="frontend/img/gallery/301021_14_19_10.jpeg" height="200px" width="auto" alt="image">
+              </a>
+            </div>
+
+                        <div class="swiper-slide">
+              <a href="http://luhachvansh.com/public/$data-&gt;images" class="glightbox">
+                  <img src="frontend/img/gallery/301021_14_07_10.jpeg" height="200px" width="auto" alt="image">
+              </a>
+            </div>
+
+                        <div class="swiper-slide">
+              <a href="http://luhachvansh.com/public/$data-&gt;images" class="glightbox">
+                  <img src="frontend/img/gallery/301021_14_43_09.jpeg" height="200px" width="auto" alt="image">
+              </a>
+            </div>
+
+                        <div class="swiper-slide">
+              <a href="http://luhachvansh.com/public/$data-&gt;images" class="glightbox">
+                  <img src="frontend/img/gallery/301021_14_52_08.jpeg" height="200px" width="auto" alt="image">
+              </a>
+            </div>
+
+                        <div class="swiper-slide">
+              <a href="http://luhachvansh.com/public/$data-&gt;images" class="glightbox">
+                  <img src="frontend/img/gallery/301021_14_38_08.jpeg" height="200px" width="auto" alt="image">
+              </a>
+            </div>
+
+                        <div class="swiper-slide">
+              <a href="http://luhachvansh.com/public/$data-&gt;images" class="glightbox">
+                  <img src="frontend/img/gallery/301021_14_17_08.jpeg" height="200px" width="auto" alt="image">
+              </a>
+            </div>
+
+                        <div class="swiper-slide">
+              <a href="http://luhachvansh.com/public/$data-&gt;images" class="glightbox">
+                  <img src="frontend/img/gallery/301021_14_02_08.jpeg" height="200px" width="auto" alt="image">
+              </a>
+            </div>
+
+                        <div class="swiper-slide">
+              <a href="http://luhachvansh.com/public/$data-&gt;images" class="glightbox">
+                  <img src="frontend/img/gallery/261021_14_51_24.jpeg" height="200px" width="auto" alt="image">
+              </a>
+            </div>
+
+                      </div>
+          <div class="swiper-pagination"></div>
+        </div>
+
+      </div>
+    </section><!-- End Recent Photos Section -->
+
+
+    <section class="downloadDirectory">
+      <div class="section-title" style="padding-bottom: 0px;font-size: 48px;">
+        <h2 style="margin-top: -40px;">लुहाच वंशावली </h2>
+        <button class="">वंशावली डाउनलोड करें <span><i class='bx bx-arrow-to-bottom'></i></span></button>
+      </div>
+    </section>
+
+    <br><br>
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+<footer id="footer">
+    <div class="container">
+      <h3>लुहाच परिवार</h3>
+      
+      <div class="social-links">
+        <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
+        <a href="https://www.facebook.com/groups/vsluhach/?ref=share" class="facebook"><i class="bx bxl-facebook"></i></a>
+        <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
+        <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
+        <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+        <a href="https://www.youtube.com/user/vipinluhach" class="linkedin"><i class="bx bxl-youtube"></i></a>
+      </div>
+      <div class="copyright">
+        &copy; Copyright <strong><span>लुहाच परिवार</span></strong>. All Rights Reserved
+      </div>
+      <div class="credits">
+        Designed by <a href="#">Techize Builder</a>
+      </div>
+    </div>
+  </footer><!-- End Footer -->
+
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
+      class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="http://luhachvansh.com/public/frontend/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="http://luhachvansh.com/public/frontend/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="http://luhachvansh.com/public/frontend/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  
+  <script src="http://luhachvansh.com/public/frontend/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="http://luhachvansh.com/public/frontend/js/main.js"></script>
+  <script src="http://luhachvansh.com/public/frontend/js/myjs.js"></script>
+</body>
+
+</html>

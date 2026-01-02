@@ -1,0 +1,294 @@
+@import "tailwindcss";
+@plugin "@tailwindcss/typography";
+
+/* === CSS CUSTOM PROPERTIES === */
+:root {
+  /* Primary Colors - Deep Royal Blue */
+  --color-primary: #1e3a8a;
+  --color-primary-light: #3b82f6;
+  --color-primary-dark: #1e40af;
+
+  /* Secondary/Accent - Amber/Gold */
+  --color-secondary: #f59e0b;
+  --color-secondary-light: #fbbf24;
+  --color-secondary-dark: #d97706;
+
+  /* Background Colors - Light Mode */
+  --color-background: #f9fafb;
+  /* Off-white */
+  --color-surface: #ffffff;
+  --color-surface-alt: #f1f5f9;
+
+  /* Text Colors - Light Mode */
+  --color-foreground: #1e293b;
+  --color-foreground-muted: #64748b;
+  --color-foreground-dim: #94a3b8;
+
+  /* Border Colors */
+  --color-border: #e2e8f0;
+  --color-border-strong: #cbd5e1;
+}
+
+/* === DARK MODE === */
+.dark {
+  --color-background: #f9fafb;
+  /* Keep light even in dark mode for consistency */
+  --color-surface: #ffffff;
+  --color-surface-alt: #f1f5f9;
+
+  --color-foreground: #1e293b;
+  --color-foreground-muted: #64748b;
+  --color-foreground-dim: #94a3b8;
+
+  --color-border: #e2e8f0;
+  --color-border-strong: #cbd5e1;
+}
+
+/* Explicitly support .dark class in Tailwind 4 */
+@custom-variant dark (&:where(.dark, .dark *));
+
+/* === BASE STYLES === */
+body {
+  font-family: var(--font-noto-devanagari), var(--font-poppins), 'Noto Sans Devanagari', 'Poppins', sans-serif;
+  background-color: var(--color-background);
+  color: var(--color-foreground) !important;
+  /* Force foreground color */
+  transition: background-color 0.3s ease, color 0.3s ease;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* === SCROLLBAR STYLING === */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--color-surface-alt);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--color-primary);
+  border-radius: var(--radius-full);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-primary-dark);
+}
+
+/* === SELECTION HIGHLIGHT === */
+::selection {
+  background-color: var(--color-secondary);
+  color: white;
+}
+
+/* === NEWS TICKER ANIMATION === */
+.news-ticker-container {
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.news-ticker-content {
+  display: inline-block;
+  animation: ticker 30s linear infinite;
+}
+
+@keyframes ticker {
+  0% {
+    transform: translateX(100%);
+  }
+
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+/* === HORIZONTAL SCROLL (Hide Scrollbar) === */
+.horizontal-scroll {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.horizontal-scroll::-webkit-scrollbar {
+  display: none;
+}
+
+/* === GRADIENT TEXT === */
+.gradient-text {
+  background: linear-gradient(135deg, var(--color-primary), var(--color-secondary));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* === CARD HOVER EFFECTS === */
+.card-hover {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card-hover:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.15);
+}
+
+/* === IMAGE ZOOM ON HOVER === */
+.image-zoom {
+  overflow: hidden;
+}
+
+.image-zoom img {
+  transition: transform 0.7s ease;
+}
+
+.image-zoom:hover img {
+  transform: scale(1.1);
+}
+
+/* === GLASS MORPHISM === */
+.glassmorphism {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.dark .glassmorphism {
+  background: rgba(0, 0, 0, 0.2);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+/* === FOCUS RING === */
+.focus-ring:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(30, 58, 138, 0.4);
+}
+
+.dark .focus-ring:focus {
+  box-shadow: 0 0 0 3px rgba(245, 158, 11, 0.4);
+}
+
+/* === HINDI TEXT OPTIMIZATION === */
+.hindi-text {
+  line-height: 1.8;
+  letter-spacing: 0.02em;
+}
+
+/* === TYPOGRAPHY OVERRIDES (Fix for dark mode visibility) === */
+.prose {
+  color: var(--color-foreground) !important;
+  max-width: none;
+}
+
+.prose h1,
+.prose h2,
+.prose h3,
+.prose h4 {
+  color: var(--color-primary) !important;
+  font-family: var(--font-noto-devanagari), sans-serif;
+}
+
+.dark .prose h1,
+.dark .prose h2,
+.dark .prose h3,
+.dark .prose h4 {
+  color: #ffffff !important;
+}
+
+.prose p,
+.prose li {
+  color: var(--color-foreground) !important;
+}
+
+.prose strong {
+  color: var(--color-primary) !important;
+  font-weight: 700;
+}
+
+.dark .prose strong {
+  color: var(--color-secondary-light) !important;
+}
+
+.prose a {
+  color: var(--color-primary-light) !important;
+  text-decoration: underline;
+}
+
+.dark .prose a {
+  color: var(--color-secondary-light) !important;
+}
+
+/* === BUTTON STYLES === */
+.btn-primary {
+  background-color: var(--color-primary);
+  color: white;
+  padding: 0.5rem 1.5rem;
+  border-radius: var(--radius-md);
+  font-weight: 600;
+  transition: all 0.3s ease;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.btn-primary:hover {
+  background-color: var(--color-primary-dark);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(30, 58, 138, 0.3);
+}
+
+.btn-secondary {
+  background-color: var(--color-secondary);
+  color: white;
+  padding: 0.5rem 1.5rem;
+  border-radius: var(--radius-md);
+  font-weight: 600;
+  transition: all 0.3s ease;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.btn-secondary:hover {
+  background-color: var(--color-secondary-dark);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(245, 158, 11, 0.3);
+}
+
+/* === SECTION DIVIDER === */
+.section-divider {
+  height: 4px;
+  width: 80px;
+  background: linear-gradient(90deg, var(--color-primary), var(--color-secondary));
+  border-radius: var(--radius-full);
+  margin: 0 auto;
+}
+
+/* === DROP CAP FOR PARAGRAPHS === */
+.drop-cap::first-letter {
+  float: left;
+  font-size: 3.5rem;
+  line-height: 1;
+  margin-right: 0.5rem;
+  margin-top: -0.25rem;
+  color: var(--color-secondary);
+  font-weight: 700;
+  font-family: serif;
+}
+
+/* === BG UTILITY CLASSES === */
+.bg-background {
+  background-color: var(--color-background);
+}
+
+.bg-surface {
+  background-color: var(--color-surface);
+}
+
+.text-foreground {
+  color: var(--color-foreground);
+}
+
+.text-muted {
+  color: var(--color-foreground-muted);
+}
