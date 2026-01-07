@@ -27,9 +27,23 @@ yarn-error.log*
 # env files
 .env*.local
 
-# vercel
-.vercel
+# Raw Data and Scripts
+/vanshavali-visualiser
+/vanshavli village pdf
+/word vanshavli
+/site_archive
+/luhach vanshi itihas 21 may
+/_scripts_backup
+/*.py
+/*.js
+!/src/**/*.js
+!/eslint.config.mjs
+!/next.config.ts
+!/postcss.config.mjs
+!/test-parser.js
 
-# typescript
-*.tsbuildinfo
-next-env.d.ts
+# Large Data Files
+Vanshavali_Master_DB_2025-12-31.csv
+luhach_history_extracted.txt
+*.zip
+.venv/
