@@ -1,9 +1,9 @@
 
 import { GoogleGenerativeAI } from "@google/generative-ai";
 import { NextResponse } from "next/server";
-import fs from "fs/promises";
-import path from "path";
 import { findPath, PersonRecord } from "@/lib/genealogyUtils";
+import { historyText } from "@/lib/data/historyData";
+import genealogyData from "@/lib/data/genealogy_index.json";
 
 // Initialize the Gemini API
 // Note: In production (Netlify), ensure GEMINI_API_KEY is set in environment variables.
@@ -13,29 +13,35 @@ const genAI = new GoogleGenerativeAI(apiKey);
 export async function POST(req: Request) {
     try {
         if (!apiKey) {
-            return NextResponse.json({ error: "API Key not configured" }, { status: 500 });
+            console.error("API Key missing");
+            return NextResponse.json({ error: "API Key not configured in Netlify Environment Variables" }, { status: 500 });
         }
 
-        const { messages, selectedPersonIds } = await req.json();
+        let body;
+        try {
+            body = await req.json();
+        } catch (e) {
+            return NextResponse.json({ error: "Invalid JSON body" }, { status: 400 });
+        }
 
-        // 1. Load context data (History PDF text and Genealogy Index)
-        const historyPath = path.join(process.cwd(), "src/lib/data/history.txt");
-        const historyText = await fs.readFile(historyPath, "utf-8");
+        const { messages, selectedPersonIds } = body;
 
-        const indexPath = path.join(process.cwd(), "src/lib/data/genealogy_index.json");
-        const records: PersonRecord[] = JSON.parse(await fs.readFile(indexPath, "utf-8"));
+        // 1. Load context data (Imported directly to avoid filesystem issues in Serverless)
+        const records = genealogyData as unknown as PersonRecord[];
 
         // 2. Identify mentioned persons in the query to provide "Contextual RAG"
         const lastMessage = messages[messages.length - 1].content.toLowerCase();
         const relevantPersons: PersonRecord[] = [];
 
         // Simple search for names mentioned in the message
-        // Note: This is a basic approach. In a more advanced version, we could use Fuse.js or an LLM to extract names.
         if (lastMessage.length > 3) {
             // Only search if message is long enough
             const searchTerms = lastMessage.split(/\s+/).filter((s: string) => s.length > 3);
             for (const term of searchTerms) {
-                const matches = records.filter(r => r.n.toLowerCase().includes(term)).slice(0, 3);
+                // Limit matches to avoid token overflow
+                const matches = records
+                    .filter(r => r.n.toLowerCase().includes(term))
+                    .slice(0, 3);
                 relevantPersons.push(...matches);
             }
         }
@@ -66,11 +72,11 @@ export async function POST(req: Request) {
       DATABASE INFORMATION (10,061 persons indexed):
       - We have a full record of 10,061 people across 46 villages.
       - The founder is Lal Singh (Generation 1).
-      - Primary migration originated from Nandha.
+      - Primary migration originated from Naandha.
 
       LITERAL HISTORY FROM PDF (Extracted):
       ---
-      ${historyText} 
+      ${historyText.slice(0, 50000)} ... (truncated for context limit if needed)
       ---
 
       ${relationshipContext ? `GENEALOGY PATH CONTEXT:\n${relationshipContext}\n---` : ""}
@@ -78,11 +84,11 @@ export async function POST(req: Request) {
       ${relevantPersons.length > 0 ? `RELEVANT PEOPLE MENTIONED IN CHAT:\n${relevantPersons.map(p => `- ${p.n} from ${p.v} (Gen: ${p.g}, Father: ${p.fn}, Notes: ${p.m})`).join("\n")}\n---` : ""}
 
       STRICT GUIDELINES:
-      - Use the provided history text for all factual historical queries (Lal Singh, Jadwa, Tomar Rajputs, etc.).
+      - Use the provided history text for all factual historical queries.
       - If you are explaining a relationship, trace it step-by-step using the path provided.
       - Answer in a mix of Hindi and English as preferred by the user.
       - Always give credit to the source: "लुहाच वंश का इतिहास" by Colonel Karmbir Singh Luhach.
-      - If you don't found specific record, suggest they check the Visualiser map.
+      - If specific info is missing, suggest checking the Visualiser map.
     `;
 
         // 5. Call Gemini 1.5 Flash
@@ -94,12 +100,11 @@ export async function POST(req: Request) {
             parts: [{ text: m.content }],
         }));
 
-        // Start Chat
         const chat = model.startChat({
             history: [
                 { role: "user", parts: [{ text: systemPrompt }] },
                 { role: "model", parts: [{ text: "Understood. I am Jarvis, the Luhach Dynasty AI. I will use the provided history and genealogy data to answer your questions accurately." }] },
-                ...geminiMessages.slice(0, -1) // All previous messages except the current one
+                ...geminiMessages.slice(0, -1)
             ],
             generationConfig: {
                 maxOutputTokens: 1000,
