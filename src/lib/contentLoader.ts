@@ -4,8 +4,8 @@ import matter from 'gray-matter';
 import { remark } from 'remark';
 import html from 'remark-html';
 
-// Path to site archive content
-const CONTENT_DIR = path.join(process.cwd(), '..', 'site_archive', 'content');
+// Path to content directory (must be inside repo for Vercel)
+const CONTENT_DIR = path.join(process.cwd(), 'content');
 
 export async function getMarkdownContent(filename: string): Promise<{ content: string; frontmatter: Record<string, unknown> }> {
     const filePath = path.join(CONTENT_DIR, filename);
