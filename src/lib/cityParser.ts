@@ -2,7 +2,7 @@ import fs from 'fs';
 import path from 'path';
 import matter from 'gray-matter';
 
-const CITY_DIR = path.join(process.cwd(), '..', 'site_archive', 'content', 'search', 'city');
+const CITY_DIR = path.join(process.cwd(), 'content', 'search', 'city');
 
 export interface CityData {
     slug: string;

@@ -13,7 +13,7 @@ interface Achiever {
 }
 
 export function parseAchieversFromMarkdown(): Achiever[] {
-    const filePath = path.join(process.cwd(), '..', 'site_archive', 'content', 'achievers', 'all.md');
+    const filePath = path.join(process.cwd(), 'content', 'achievers', 'all.md');
 
     try {
         const content = fs.readFileSync(filePath, 'utf-8');
